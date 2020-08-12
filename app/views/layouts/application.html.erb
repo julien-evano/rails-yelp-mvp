@@ -13,6 +13,10 @@
   </head>
 
   <body>
+    <div class="d-flex justify-content-between bg-primary mb-3 navbar">
+      <h1>Restaurants</h1>
+      <%= link_to "Create Restaurant", new_restaurant_path, :class => "btn btn-info" %>
+    </div>
     <%= yield %>
   </body>
 </html>
